@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "DDC_Uchen";
+  src: url("../webfonts/DDC_Uchen-webfont.ttf") format('truetype');
+}
+
+.tibetan {
+  font-family: DDC_Uchen;
+  font-size: 32px !important;
+  line-height: calc(32px * 2);
+  font-weight: normal !important;
+  letter-spacing: 0 !important;
+  vertical-align: middle;
+}
+
+.phonetics {
+  font-style: italic;
+  font-size: 1em !important;
+}
+
+#banner,
+.tiles article {
+  background-size: contain;
+}
+
+.tiles article:hover header {
+  text-shadow: 0 0 2px #bfbf00, 0 0 5px #bfbf00, 0 0 10px black;
+}
+
+.tiles article header {
+  transition: all 0.2s ease-in-out !important;
+}
