@@ -17,6 +17,16 @@
   font-size: 1em !important;
 }
 
+.back {
+  padding: 2px 30px;
+  font-size: 25px;
+  border-bottom: none;
+}
+
+#banner {
+  height: 100vh;
+}
+
 #banner,
 .tiles article {
   background-size: contain;
